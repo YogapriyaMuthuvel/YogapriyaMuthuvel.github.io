@@ -1,0 +1,76 @@
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;  
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url('travel.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff
+}
+.services, .about{
+  text-align: center;
+}
+.services h2, .about h2{
+  padding: 24px 0px;
+}
+
+.services ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* For responsive  */
+@media (max-width: 768px){
+  .services ul{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.card{
+  height: 200px;
+  width: 200px;
+  padding: 12px;
+  background-color: aliceblue;
+}
+.card p{
+  margin-bottom: 10px;
+}
+
